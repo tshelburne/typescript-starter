@@ -1,0 +1,26 @@
+{
+  "name": "@template-repo/util",
+  "version": "0.1.0",
+  "description": "Template for creating a new Node.js package",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "import": "./dist/*.js",
+      "types": "./dist/*.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test",
+    "clean": "rimraf dist node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "rimraf": "^6.0.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.5.0"
+  }
+}
