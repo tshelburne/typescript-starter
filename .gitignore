@@ -1,4 +1,13 @@
+# node
 node_modules
+pnpm-lock.yaml
+
+# builds
 dist
+.next
+out
+build
+
+# misc
+*.log
 .env
-nohup.out
