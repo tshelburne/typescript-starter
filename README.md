@@ -52,6 +52,7 @@ pnpm --filter @new-hotness/express-backend start
 ## 🧱 Scripts (convention)
 
 From the **root**:
+
 - `pnpm dev` — recursively run dev scripts (optional)
 - `pnpm build` — build all packages/apps
 
@@ -61,7 +62,7 @@ From the **root**:
 
 ```ts
 // apps/react-frontend/src/somewhere.ts
-import { async } from "@new-hotness/util/promise";
+import { async } from "@new-hotness/util/promise"
 ```
 
 All apps depend on `@new-hotness/util` via `"workspace:*"` so pnpm will symlink automatically.
