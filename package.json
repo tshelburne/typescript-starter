@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "pnpm -r --stream build",
+    "dev": "pnpm -r --stream --parallel dev",
     "test": "pnpm -r --stream --parallel test",
     "clean": "pnpm -r --stream --parallel clean && rm -rf node_modules"
   },

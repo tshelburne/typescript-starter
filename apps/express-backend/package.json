@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx watch src/index.ts",
+    "dev": "pnpm start",
     "clean": "rimraf node_modules"
   },
   "dependencies": {
