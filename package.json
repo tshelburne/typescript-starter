@@ -1,0 +1,15 @@
+{
+  "name": "buttle.ai",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "UNLICENSED",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r --stream build",
+    "test": "pnpm -r --stream --parallel test",
+    "clean": "pnpm -r --stream --parallel clean && rm -rf node_modules"
+  },
+  "packageManager": "pnpm@10.12.1"
+}
