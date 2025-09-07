@@ -11,9 +11,8 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: pnpm
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 10
+      - name: Install PNPM
+        run: corepack enable
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
       - run: pnpm test
