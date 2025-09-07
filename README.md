@@ -1,5 +1,7 @@
 # Monorepo Starter (pnpm + TypeScript + Workspaces)
 
+![CI](https://github.com/tshelburne/typescript-starter/actions/workflows/ci.yml/badge.svg)
+
 A minimal, batteries-included monorepo template using **pnpm workspaces**, **TypeScript**, and a few common app types.
 
 ## 📦 Packages
