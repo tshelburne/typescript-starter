@@ -1,6 +1,8 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "module": "preserve", // b/c we use "bundler" below
+    "moduleResolution": "bundler", // b/c vite is a bundler
     "jsx": "react-jsx"
   },
   "include": ["src"]

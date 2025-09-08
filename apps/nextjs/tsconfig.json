@@ -1,7 +1,9 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "jsx": "preserve", // or "preserve" if Next.js
+    "module": "preserve", // b/c we use "bundler" below
+    "moduleResolution": "bundler", // b/c nextjs uses a bundler
+    "jsx": "preserve",
     "outDir": "dist",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
